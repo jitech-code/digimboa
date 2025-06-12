@@ -73,13 +73,13 @@ const HomePage = () => {
    // Liste des liens de navigation pour éviter la répétition
    const navLinks = [
     { path: "/", name: "Accueil", icon: null },
-    { path: "/projects", name: "Projets", icon: null },
-    { path: "/creators", name: "Créateurs", icon: null },
-    { path: "/events", name: "Événements", icon: null },
+    { path: "/", name: "Projets", icon: null },
+    { path: "/sub", name: "Créateurs", icon: null },
+    { path: "/sub", name: "Événements", icon: null },
     { path: "/community", name: "Communauté", icon: FiMessageCircle },
     { path: "/success-stories", name: "Success Stories", icon: FiStar },
-    { path: "/about", name: "À propos", icon: FiInfo },
-    { path: "/contact", name: "Contact", icon: FiMail }
+    { path: "/login", name: "À propos", icon: FiInfo },
+    { path: "/login", name: "Contact", icon: FiMail }
   ];
 
   return (
